@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
  * Created by DELL on 06/06/17.
  */
 @Repository
-public class BookRepository{
+public interface BookRepository extends CrudRepository<BookEntity, Integer>{
 
 }
